@@ -1,6 +1,6 @@
 export default function Article() {
     return (
-        <section>
+        <section id="articles">
         Article
         </section>
     )

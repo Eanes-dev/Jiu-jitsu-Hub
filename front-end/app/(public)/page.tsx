@@ -4,6 +4,7 @@ import Instructors from '../../components/sections/Instructors'
 import Articles from '../../components/sections/articles'
 import Location from '../../components/sections/location'
 import Schedule from '../../components/sections/schedule'
+import Contact from '@/components/sections/contact'
 
 export default function HomePage() {
     return (
@@ -14,6 +15,7 @@ export default function HomePage() {
             <Location/>
             <Articles/>
             <Instructors/>
+            <Contact />
         </main>
     )
 }

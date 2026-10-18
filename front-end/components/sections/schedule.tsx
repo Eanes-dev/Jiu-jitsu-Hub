@@ -1,6 +1,6 @@
 export default function Schedule() {
     return (
-        <section>
+        <section id="schedule">
         horários
         </section>
     )

@@ -1,7 +1,9 @@
+import NavBar from "./components/navbar"
+
 export default function Header() {
     return (
         <header>
-        Header
+            <NavBar />
         </header>
     )
 }
