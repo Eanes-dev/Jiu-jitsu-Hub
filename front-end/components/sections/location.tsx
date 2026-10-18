@@ -1,6 +1,6 @@
 export default function Location() {
     return (
-        <section>
+        <section id="location">
         location
         </section>
     )

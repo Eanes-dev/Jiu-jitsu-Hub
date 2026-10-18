@@ -4,7 +4,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #001933;
+  --background: #394C60;
   --foreground: #DFE5EC;
   --blue-bolder: #001933;
   --blue-bold: #004A99;
@@ -23,6 +23,10 @@
   --purple: #60639F;
   --font-title: "Noto Serif Gujarati", serif;
   --font-text: "Lato", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -162,7 +166,7 @@ body {
   background-color: var(--gray-bold);
 }
 
-.btn:focus {
+.btn:focus-visible {
   outline: 0.125rem solid var(--blue);
   outline-offset: 0.125rem;
 }
